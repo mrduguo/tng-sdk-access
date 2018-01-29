@@ -2,7 +2,7 @@
 
 # tng-sdk-access
 
-The repository contains the `tng-sdk-access` component that is part of the 5GTANGO SDK. This component is responsible to upload 5GTANGO packages and to access 5GTANGO catalogs, service platforms, and V&Vs.
+The repository contains the `tng-sdk-access` component that is part of the [5GTANGO](http://www.5gtango.eu) SDK. This component is responsible to upload 5GTANGO packages and to access 5GTANGO catalogs, service platforms, and V&Vs.
 
 The seed code of this component is based on the `son-cli` toolbox that was developed as part of SONATA-NFV ([http://sonata-nfv.eu](http://sonata-nfv.eu)).
 
