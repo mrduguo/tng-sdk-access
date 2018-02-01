@@ -2,19 +2,21 @@
 
 # tng-sdk-access
 
-The repository contains the `tng-sdk-access` component that is part of the [5GTANGO](http://www.5gtango.eu) SDK. This component is responsible to upload 5GTANGO packages and to access 5GTANGO catalogs, service platforms, and V&Vs.
+This repository contains the `tng-sdk-sccess` component that is part of the European H2020 project [5GTANGO](http://www.5gtango.eu) NFV SDK. This component is responsible to upload 5GTANGO packages and to access 5GTANGO catalogs, service platforms, and V&Vs.
 
-The seed code of this component is based on the `son-cli` toolbox that was developed as part of SONATA-NFV ([http://sonata-nfv.eu](http://sonata-nfv.eu)).
+The seed code of this component is based on the `son-cli` toolbox that was developed as part of the European H2020 project [SONATA](http://sonata-nfv.eu).
 
 ## Installation
 
 ```bash
-TODO
+$ python setup.py install
 ```
 
 ## Usage
 
+```bash
 TODO
+```
 
 ## Documentation
 
@@ -27,7 +29,7 @@ To contribute to the development of this 5GTANGO component, you may use the very
 ### Setup development environment
 
 ```bash
-TODO
+$ python setup.py develop
 ```
 
 ### CI Integration
@@ -39,9 +41,8 @@ All pull requests are automatically tested by Jenkins and will only be accepted 
 You can also run the test manually on your local machine. To do so, you need to do:
 
 ```bash
-TODO
+$ pytest -v
 ```
-
 
 ## License
 
@@ -52,6 +53,7 @@ This 5GTANGO component is published under Apache 2.0 license. Please see the LIC
 
 The following lead developers are responsible for this repository and have admin rights. They can, for example, merge pull requests.
 
+- Kostantinos Douloudis (?)
 - Manuel Peuster ([@mpeuster](https://github.com/mpeuster))
 - Stefan Schneider ([@StefanUPB](https://github.com/StefanUPB))
 
